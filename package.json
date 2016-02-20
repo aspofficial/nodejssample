@@ -1,0 +1,12 @@
+{
+  "name": "heroku",
+  "version": "0.0.1",
+  "description": "This is a sample application to know how to push the node server application into the dedicated servers(..in this case the server is HEROKU)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aditya Singh Parmar <aspofficial94@gmail.com> (aspaditya@gmail.com)",
+  "license": "ISC"
+}
