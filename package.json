@@ -1,5 +1,5 @@
 {
-  "name": "heroku",
+  "name": "openshift",
   "version": "0.0.1",
   "description": "This is a sample application to know how to push the node server application into the dedicated servers(..in this case the server is HEROKU)",
   "main": "server.js",
@@ -8,5 +8,17 @@
     "start": "node server.js"
   },
   "author": "Aditya Singh Parmar <aspofficial94@gmail.com> (aspaditya@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rhc": "^0.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspofficial/nodejssample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aspofficial/nodejssample/issues"
+  },
+  "homepage": "https://github.com/aspofficial/nodejssample#readme"
 }
